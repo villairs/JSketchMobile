@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Jsketch Mobile</string>
+    <string name="blue">blue</string>
+    <string name="green">green</string>
+    <string name="red">red</string>
+    <string name="thin">thin</string>
+    <string name="med">med</string>
+    <string name="large">large</string>
+    <string name="select">select</string>
+    <string name="erase">erase</string>
+    <string name="circle">circle</string>
+    <string name="rectangle">rectangle</string>
+    <string name="line">line</string>
+    <string name="fill">fill</string>
+    <string name="undobutton">undoButton</string>
+    <string name="redobutton">redoButton</string>
+    <string name="redobutton1">redoButton</string>
+    <string name="undo">undo</string>
+</resources>

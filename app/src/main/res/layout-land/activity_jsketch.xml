@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.villairs.jsketchmobile.JSketch">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/layout">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/red"
+                android:src="@drawable/red"
+                android:contentDescription="@string/red"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/green"
+                android:src="@drawable/green"
+                android:contentDescription="@string/green"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/blue"
+                android:src="@drawable/blue"
+                android:contentDescription="@string/blue"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/thin"
+                android:src="@drawable/thin"
+                android:contentDescription="@string/thin"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/med"
+                android:src="@drawable/med"
+                android:contentDescription="@string/med"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/large"
+                android:src="@drawable/large"
+                android:contentDescription="@string/large"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/redo"
+                android:src="@drawable/redo"
+                android:contentDescription="@string/redobutton"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/select"
+                android:src="@drawable/mouse"
+                android:contentDescription="@string/select"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/erase"
+                android:src="@drawable/eraser"
+                android:contentDescription="@string/erase"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/circle"
+                android:src="@drawable/circle"
+                android:contentDescription="@string/circle"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rect"
+                android:src="@drawable/rect"
+                android:contentDescription="@string/rectangle"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/line"
+                android:src="@drawable/line"
+                android:contentDescription="@string/line"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fill"
+                android:src="@drawable/fill"
+                android:contentDescription="@string/fill"
+                android:scaleType="center"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/undo"
+                android:src="@drawable/undo"
+                android:contentDescription="@string/undobutton"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <com.example.villairs.jsketchmobile.MyCanvas
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/view2" />
+
+    </LinearLayout>
+
+</RelativeLayout>
